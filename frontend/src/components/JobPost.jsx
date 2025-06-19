@@ -47,27 +47,29 @@ const JobPost = () => {
     "IT Consulting",
   ];
 
-  const cities = [
-    "Karachi",
-    "Lahore",
-    "Islamabad",
-    "Rawalpindi",
-    "Faisalabad",
-    "Multan",
+  const cities= [
+    "All",
+    "Bengaluru",
     "Hyderabad",
-    "Quetta",
-    "Peshawar",
-    "Sialkot",
-    "Gujranwala",
-    "Sargodha",
-    "Bahawalpur",
-    "Sukkur",
-    "Mardan",
-    "Mingora",
-    "Sheikhupura",
-    "Mandi Bahauddin",
-    "Larkana",
-    "Nawabshah",
+    "Chennai",
+    "Pune",
+    "Mumbai",
+    "Delhi NCR", // This typically includes Delhi, Gurugram, and Noida
+    "Kolkata",
+    "Ahmedabad",
+    "Kochi",
+    "Chandigarh",
+    "Indore",
+    "Coimbatore",
+    "Thiruvananthapuram",
+    "Jaipur",
+    "Lucknow",
+    "Nagpur",
+    "Bhubaneshwar",
+    "Mysuru", // Often included as an extension of Bengaluru's tech scene
+    "Visakhapatnam", // Vizag
+    "Madurai",
+    "Vadodara",
   ];
 
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -253,7 +255,7 @@ const JobPost = () => {
           style={{ margin: "0 auto" }}
           className="btn"
           onClick={handlePostJob}
-          disabled={loading}
+          // disabled={loading}
         >
           Post Job
         </button>

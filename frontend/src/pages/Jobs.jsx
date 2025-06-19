@@ -38,28 +38,31 @@ const Jobs = () => {
     dispatch(fetchJobs(city, niche, searchKeyword));
   };
 
-  const cities = [
+  
+
+const cities = [
     "All",
-    "Karachi",
-    "Lahore",
-    "Islamabad",
-    "Rawalpindi",
-    "Faisalabad",
-    "Multan",
+    "Bengaluru",
     "Hyderabad",
-    "Quetta",
-    "Peshawar",
-    "Sialkot",
-    "Gujranwala",
-    "Sargodha",
-    "Bahawalpur",
-    "Sukkur",
-    "Mardan",
-    "Mingora",
-    "Sheikhupura",
-    "Mandi Bahauddin",
-    "Larkana",
-    "Nawabshah",
+    "Chennai",
+    "Pune",
+    "Mumbai",
+    "Delhi NCR", 
+    "Kolkata",
+    "Ahmedabad",
+    "Kochi",
+    "Chandigarh",
+    "Indore",
+    "Coimbatore",
+    "Thiruvananthapuram",
+    "Jaipur",
+    "Lucknow",
+    "Nagpur",
+    "Bhubaneshwar",
+    "Mysuru", 
+    "Visakhapatnam", 
+    "Madurai",
+    "Vadodara",
   ];
 
   const nichesArray = [
